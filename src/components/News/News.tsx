@@ -32,7 +32,11 @@ const News = ({ titles, activeTitle, date, items, children }: INewsProps) => {
   const newsItems = items.map((el) => {
     return (
       <li key={el.id} className="news__item">
-        <img src={el.icon} alt="иконка" className="news__item-image" />
+        <img
+          src={`${import.meta.env.BASE_URL}${el.icon}`}
+          alt="иконка"
+          className="news__item-image"
+        />
         <p className="news__item-text">{el.text}</p>
       </li>
     );

@@ -9,7 +9,7 @@ interface ISidebarProps {
 const Sidebar = ({ src, title, text }: ISidebarProps) => {
   return (
     <aside className="sidebar">
-      <img className="sidebar__image" src={src} alt="картинка" />
+      <img className="sidebar__image" src={`${import.meta.env.BASE_URL}${src}`} alt="картинка" />
       <h3 className="sidebar__title">{title}</h3>
       <p className="sidebar__text">{text}</p>
     </aside>

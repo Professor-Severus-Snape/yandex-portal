@@ -18,27 +18,27 @@
   "items": [
     {
       "id": "1",
-      "icon": "./icon-news.svg",
+      "icon": "icon-news.svg",
       "text": "Путин упростил получение автомобильных номеров"
     },
     {
       "id": "2",
-      "icon": "./icon-news.svg",
+      "icon": "icon-news.svg",
       "text": "В команде Зеленского раскрыли план реформ на Украине"
     },
     {
       "id": "3",
-      "icon": "./icon-news.svg",
+      "icon": "icon-news.svg",
       "text": "«Турпомощь» прокомментировала гибель десятков россиян в Анталье"
     },
     {
       "id": "4",
-      "icon": "./icon-news.svg",
+      "icon": "icon-news.svg",
       "text": "Суд закрыл дело Демпартии США против России"
     },
     {
       "id": "5",
-      "icon": "./icon-news.svg",
+      "icon": "icon-news.svg",
       "text": "На Украине призвали создать ракеты для удара по Москве"
     }
   ]

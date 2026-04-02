@@ -10,7 +10,7 @@ interface IArticleWeatherProps {
 const ArticleWeather = ({ icon, current, morning, day }: IArticleWeatherProps) => {
   return (
     <a href="#" className="article__text weather">
-      <img src={icon} className="weather__icon" />
+      <img src={`${import.meta.env.BASE_URL}${icon}`} className="weather__icon" />
       <span className="weather__current-temperature">
         <span>{current}</span>&deg;C
       </span>
